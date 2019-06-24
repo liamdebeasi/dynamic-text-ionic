@@ -14,8 +14,8 @@ export class HomePage {
   
   async showAlert() {
     const alert = await this.alertCtrl.create({
-      title: 'This is an alert',
-      subTitle: "That's all",
+      header: 'This is an alert',
+      subHeader: "That's all",
       buttons: ['Close']
     });
     
